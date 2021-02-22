@@ -38,7 +38,7 @@ async function main() {
   rows = data.map(it => {
     return {
       from: moment(it[0]).format(DATE_FORMAT),
-      to: moment(it[6]).format(DATE_FORMAT + 1),
+      to: moment(it[6] + 1).format(DATE_FORMAT),
       markPrice: it[1]
     }
   })
