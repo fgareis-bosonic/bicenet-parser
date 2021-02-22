@@ -3,7 +3,7 @@ const moment = require('moment')
 const { Parser } = require('json2csv');
 const fs = require('fs');
 
-const DATE_FORMAT = 'MM/DD/YYYY HH:mm:ss A';
+const DATE_FORMAT = 'MM/DD/YYYY hh:mm:ss A';
 
 async function main() {
 
