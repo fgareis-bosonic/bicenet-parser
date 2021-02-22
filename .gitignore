@@ -1,0 +1,14 @@
+
+node_modules/
+
+\.idea/
+
+.*.sw?
+
+build/
+
+build-dev/
+
+*.vscode/
+
+test-report.html
